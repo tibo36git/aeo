@@ -1,0 +1,34 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity toplevel
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:43]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:43]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:44]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:44]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:45]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:45]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:46]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:46]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:47]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:47]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:48]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:48]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:49]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:49]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:50]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:50]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:51]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:51]
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:52]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity toplevel
+ERROR: [VRFC 10-469] cannot update 'in' object sw [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:43]
+ERROR: [VRFC 10-460] cannot read from 'out' object led ; use 'buffer' or 'inout' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:43]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd:39]
+INFO: [VRFC 10-240] VHDL file /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity toplevel
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/toplevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity toplevel
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/add4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity add4
