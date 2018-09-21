@@ -34,7 +34,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity add4 is
     Port ( a : in STD_LOGIC_VECTOR (3 downto 0);
-           b : in STD_LOGIC_VECTOR (12 downto 15);
+           b : in STD_LOGIC_VECTOR (3 downto 0);
            sum : out STD_LOGIC_VECTOR (4 downto 0));
 end add4;
 

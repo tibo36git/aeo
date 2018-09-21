@@ -52,8 +52,11 @@ b <= sw (15 downto 12);
 
 c <= ('0' & a) + ('0' & b);
 
-led <= c (3 downto 0);
-dp <= c (4);
-an(0) <= '1';
+led (3 downto 0) <= c (3 downto 0);
+dp <= not c (4);
+an(0) <= '0';
+an(1) <= '1';
+an(2) <= '1';
+an(3) <= '1';
 
 end Behavioral;

@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.srcs/sources_1/new/add4.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity add4
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/m1/foiche/aeo/aeo/TP_1/TP_1.srcs/sources_1/new/my_addv2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_addv2

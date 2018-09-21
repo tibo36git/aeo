@@ -40,6 +40,6 @@ architecture Behavioral of toplevel is
 
 begin
 
-led(15 downto 0) <= sw(15 downto 0);
+led(15 downto 0) <= not sw(15 downto 0);
 
 end Behavioral;

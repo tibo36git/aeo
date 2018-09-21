@@ -1,6 +1,6 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: /home/tibo36/Xilinx-Vivavdo/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 3bfa73e85ece4ebfb463ae608fb341db --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot add4_behav xil_defaultlib.add4 -log elaborate.log 
+Running: /local/xilinx-vivado/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 3bfa73e85ece4ebfb463ae608fb341db --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot my_addv2_behav xil_defaultlib.my_addv2 -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -12,5 +12,5 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.std_logic_arith
 Compiling package ieee.std_logic_unsigned
-Compiling architecture behavioral of entity xil_defaultlib.add4
-Built simulation snapshot add4_behav
+Compiling architecture behavioral of entity xil_defaultlib.my_addv2
+Built simulation snapshot my_addv2_behav

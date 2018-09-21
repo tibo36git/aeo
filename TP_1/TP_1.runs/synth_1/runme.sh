@@ -7,20 +7,20 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/home/tibo36/Xilinx-Vivavdo/SDK/2018.2/bin:/home/tibo36/Xilinx-Vivavdo/Vivado/2018.2/ids_lite/ISE/bin/lin64:/home/tibo36/Xilinx-Vivavdo/Vivado/2018.2/bin
+  PATH=/local/xilinx-vivado/SDK/2018.2/bin:/local/xilinx-vivado/Vivado/2018.2/ids_lite/ISE/bin/lin64:/local/xilinx-vivado/Vivado/2018.2/bin
 else
-  PATH=/home/tibo36/Xilinx-Vivavdo/SDK/2018.2/bin:/home/tibo36/Xilinx-Vivavdo/Vivado/2018.2/ids_lite/ISE/bin/lin64:/home/tibo36/Xilinx-Vivavdo/Vivado/2018.2/bin:$PATH
+  PATH=/local/xilinx-vivado/SDK/2018.2/bin:/local/xilinx-vivado/Vivado/2018.2/ids_lite/ISE/bin/lin64:/local/xilinx-vivado/Vivado/2018.2/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=/home/tibo36/Xilinx-Vivavdo/Vivado/2018.2/ids_lite/ISE/lib/lin64
+  LD_LIBRARY_PATH=/local/xilinx-vivado/Vivado/2018.2/ids_lite/ISE/lib/lin64
 else
-  LD_LIBRARY_PATH=/home/tibo36/Xilinx-Vivavdo/Vivado/2018.2/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=/local/xilinx-vivado/Vivado/2018.2/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_1/TP_1.runs/synth_1'
+HD_PWD='/home/m1/foiche/aeo/aeo/TP_1/TP_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log add4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source add4.tcl
+EAStep vivado -log my_addv2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source my_addv2.tcl
