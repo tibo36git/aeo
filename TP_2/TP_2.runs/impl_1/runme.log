@@ -1,0 +1,151 @@
+
+*** Running vivado
+    with args -log x7seg.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source x7seg.tcl -notrace
+
+
+****** Vivado v2018.2.1 (64-bit)
+  **** SW Build 2288692 on Thu Jul 26 18:23:50 MDT 2018
+  **** IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source x7seg.tcl -notrace
+Command: link_design -top x7seg -part xc7k70tfbv676-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2.1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V17' is not a valid site or package pin name. [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc:12]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V16' is not a valid site or package pin name. [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W16' is not a valid site or package pin name. [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc:16]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W17' is not a valid site or package pin name. [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc:18]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W7' is not a valid site or package pin name. [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc:82]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U8' is not a valid site or package pin name. [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc:86]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V5' is not a valid site or package pin name. [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc:92]
+Finished Parsing XDC File [/home/m1/foiche/aeo/aeo/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 7 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1460.137 ; gain = 273.434 ; free physical = 689 ; free virtual = 11136
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k70t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1509.152 ; gain = 49.016 ; free physical = 664 ; free virtual = 11111
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 1948.707 ; gain = 439.555 ; free physical = 122 ; free virtual = 10399
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+Ending Logic Optimization Task | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 115e2475c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1948.707 ; gain = 0.000 ; free physical = 122 ; free virtual = 10400
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 0 Warnings, 7 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 1948.707 ; gain = 488.570 ; free physical = 122 ; free virtual = 10400
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1980.723 ; gain = 0.000 ; free physical = 121 ; free virtual = 10399
+INFO: [Common 17-1381] The checkpoint '/home/m1/foiche/aeo/aeo/TP_2/TP_2.runs/impl_1/x7seg_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file x7seg_drc_opted.rpt -pb x7seg_drc_opted.pb -rpx x7seg_drc_opted.rpx
+Command: report_drc -file x7seg_drc_opted.rpt -pb x7seg_drc_opted.pb -rpx x7seg_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/local/xilinx-vivado/Vivado/2018.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/m1/foiche/aeo/aeo/TP_2/TP_2.runs/impl_1/x7seg_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k70t'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+ERROR: [DRC BIVB-1] Bank IO standard Support: Bank 33 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+seg[3]
+ERROR: [DRC BIVB-1] Bank IO standard Support: Bank 34 has incompatible IO(s) because: The LVCMOS33 I/O standard is not supported.  Move the following ports or change their properties:  
+an[3:0], seg[1], seg[4] and seg[6]
+INFO: [Vivado_Tcl 4-198] DRC finished with 2 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-23] Error(s) found during DRC. Placer not run.
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 0 Warnings, 7 Critical Warnings and 3 Errors encountered.
+place_design failed
+ERROR: [Common 17-39] 'place_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 21 11:12:09 2018...
