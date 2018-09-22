@@ -40,7 +40,7 @@ end calc;
 
 architecture Behavioral of calc is
 
-signal s : std_logic_vector (3 downto 0);
+signal s : std_logic_vector (4 downto 0);
 
 component add4
     port ( a, b : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -54,9 +54,10 @@ end component;
 
 begin
 
-inst_add4 : add4 port map (a => sw (3 downto 0), b => sw (15 downto 12), sum (3 downto 0) => s);        
-inst_x7seg : x7seg port map (sw => s, seg => seg);
+inst_add4 : add4 port map (a => sw (3 downto 0), b => sw (15 downto 12), sum (4 downto 0) => s);        
+inst_x7seg : x7seg port map (sw => s (3 downto 0), seg => seg);
+led (4 downto 0) <= s;
 
-an <= "0000";
+an <= "1110";
 
 end Behavioral;
