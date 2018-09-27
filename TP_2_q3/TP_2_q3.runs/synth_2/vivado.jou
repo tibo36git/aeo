@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Sep 27 19:30:13 2018
+# Process ID: 7092
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_2_q3/TP_2_q3.runs/synth_2
+# Command line: vivado -log calc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source calc.tcl
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_2_q3/TP_2_q3.runs/synth_2/calc.vds
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_2_q3/TP_2_q3.runs/synth_2/vivado.jou
+#-----------------------------------------------------------
+source calc.tcl -notrace
