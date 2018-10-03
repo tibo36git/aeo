@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Sep 28 11:42:18 2018
+# Process ID: 15813
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_3_q2/TP_3_q2.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_3_q2/TP_3_q2.sim/sim_1/behav/xsim/xsim.dir/comp42_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_3_q2/TP_3_q2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_3_q2/TP_3_q2.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_3_q2/TP_3_q2.sim/sim_1/behav/xsim/xsim.dir/comp42_behav/webtalk/xsim_webtalk.tcl -notrace

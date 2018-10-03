@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1537641576">
-  <File Type="PA-TCL" Name="calc.tcl"/>
-  <File Type="REPORTS-TCL" Name="calc_reports.tcl"/>
-  <File Type="OPT-DCP" Name="calc_opt.dcp"/>
-  <File Type="OPT-DRC" Name="calc_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="calc.hwdef"/>
-  <File Type="PWROPT-DCP" Name="calc_pwropt.dcp"/>
-  <File Type="PLACE-DCP" Name="calc_placed.dcp"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="calc_incremental_reuse_pre_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="calc_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="calc_physopt.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="calc_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="calc_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="calc_routed_bb.dcp"/>
+  <File Type="BG-BGN" Name="calc.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="calc_postplace_pwropt.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="calc_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BIT" Name="calc.bit"/>
-  <File Type="BG-BIN" Name="calc.bin"/>
+  <File Type="PLACE-DCP" Name="calc_placed.dcp"/>
+  <File Type="ROUTE-DCP" Name="calc_routed.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="calc_physopt.dcp"/>
+  <File Type="REPORTS-TCL" Name="calc_reports.tcl"/>
+  <File Type="BITSTR-RBT" Name="calc.rbt"/>
+  <File Type="PA-TCL" Name="calc.tcl"/>
   <File Type="BITSTR-MSK" Name="calc.msk"/>
   <File Type="ROUTE-TIMING-PB" Name="calc_timing_summary_routed.pb"/>
-  <File Type="BITSTR-RBT" Name="calc.rbt"/>
+  <File Type="OPT-DCP" Name="calc_opt.dcp"/>
+  <File Type="BG-BIN" Name="calc.bin"/>
+  <File Type="OPT-DRC" Name="calc_drc_opted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="calc_routed_error.dcp"/>
+  <File Type="BG-DRC" Name="calc.drc"/>
+  <File Type="OPT-HWDEF" Name="calc.hwdef"/>
+  <File Type="PWROPT-DCP" Name="calc_pwropt.dcp"/>
   <File Type="BITSTR-NKY" Name="calc.nky"/>
   <File Type="BITSTR-BMM" Name="calc_bd.bmm"/>
-  <File Type="BG-DRC" Name="calc.drc"/>
   <File Type="BITSTR-MMI" Name="calc.mmi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-BGN" Name="calc.bgn"/>
   <File Type="BITSTR-SYSDEF" Name="calc.sysdef"/>
   <File Type="BITSTR-LTX" Name="calc.ltx"/>
   <File Type="RDI-RDI" Name="calc.vdi"/>
