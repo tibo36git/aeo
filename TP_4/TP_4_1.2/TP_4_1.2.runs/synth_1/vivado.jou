@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  3 21:12:58 2018
+# Process ID: 8987
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_4/TP_4_1.2/TP_4_1.2.runs/synth_1
+# Command line: vivado -log chenillard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source chenillard.tcl
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_4/TP_4_1.2/TP_4_1.2.runs/synth_1/chenillard.vds
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_4/TP_4_1.2/TP_4_1.2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source chenillard.tcl -notrace
