@@ -155,8 +155,8 @@ inst_x7seg : x7seg port map (sw => s (3 downto 0), code => code, seg => seg);
 led ( 4 downto 0) <= w;
 
 
-with seg select
-    an <= "0000" when "0000000",
+with code select
+    an <= "0000" when "11",
 	"1110" when others;
 
 end Behavioral;
