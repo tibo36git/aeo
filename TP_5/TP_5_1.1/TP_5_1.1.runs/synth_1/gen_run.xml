@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1538732664">
+  <File Type="VDS-TIMING-PB" Name="MooreParity_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MooreParity_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="MooreParity.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="MooreParity_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="MooreParity_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="MooreParity_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="MooreParity.vds"/>
+  <File Type="REPORTS-TCL" Name="MooreParity_reports.tcl"/>
+  <File Type="PA-TCL" Name="MooreParity.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/par4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../TP_3_q2v2/TP_3_q2v2.srcs/sources_1/imports/sources_1/new/par4.vhd"/>
+        <Attr Name="ImportTime" Val="1538720852"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/x7seg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MooreParity.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MooreParity"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/TP_5/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1538661185"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

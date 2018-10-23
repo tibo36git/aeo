@@ -48,9 +48,13 @@ variable droite_gauche : std_logic := '0';
 variable position : integer := 15;
 begin
 	if (clk_div'event and clk_div='1') then
+	
+--	   Gestion des switchs
 	   if (sw(position) = '1') then
 	       droite_gauche := not droite_gauche;
 	   end if;
+	   
+--	   Gestion bords de table
 	   if (led(0) = '1') then
             temp := temp(14 downto 0)&temp(15);
             position := position + 1;
@@ -60,6 +64,8 @@ begin
             position := position - 1;
             droite_gauche := not droite_gauche;
        end if;
+       
+--       Gestion sens chenillard
 	   if (droite_gauche = '0') then
 	       temp := temp(0)&temp(15 downto 1);
 	       position := position - 1;

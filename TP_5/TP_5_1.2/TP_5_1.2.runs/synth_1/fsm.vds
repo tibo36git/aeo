@@ -1,0 +1,506 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Oct 19 11:48:58 2018
+# Process ID: 21859
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.runs/synth_1
+# Command line: vivado -log fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm.tcl
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.runs/synth_1/fsm.vds
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fsm.tcl -notrace
+Command: synth_design -top fsm -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21864 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1275.273 ; gain = 86.844 ; free physical = 1752 ; free virtual = 12057
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fsm' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/fsm.vhd:46]
+INFO: [Synth 8-3491] module 'decodeBtn' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:34' bound to instance 'Inst_decode' of component 'decodeBtn' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/fsm.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'decodeBtn' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:44]
+INFO: [Synth 8-3491] module 'enable190' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/enable190.vhd:35' bound to instance 'Inst_clkdiv190' of component 'enable190' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'enable190' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/enable190.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'enable190' (1#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/enable190.vhd:42]
+INFO: [Synth 8-3491] module 'btn_pulse' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd:35' bound to instance 'Inst_Q0' of component 'btn_pulse' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'btn_pulse' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'btn_pulse' (2#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd:42]
+INFO: [Synth 8-3491] module 'btn_pulse' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd:35' bound to instance 'Inst_Q1' of component 'btn_pulse' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:87]
+INFO: [Synth 8-3491] module 'btn_pulse' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd:35' bound to instance 'Inst_Q2' of component 'btn_pulse' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:88]
+INFO: [Synth 8-3491] module 'btn_pulse' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd:35' bound to instance 'Inst_Q3' of component 'btn_pulse' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:89]
+INFO: [Synth 8-3491] module 'btn_pulse' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd:35' bound to instance 'Inst_Q4' of component 'btn_pulse' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:90]
+INFO: [Synth 8-256] done synthesizing module 'decodeBtn' (3#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd:44]
+INFO: [Synth 8-3491] module 'chenillard' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/chenillard.vhd:34' bound to instance 'Inst_chenillard' of component 'chenillard' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/fsm.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'chenillard' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/chenillard.vhd:40]
+INFO: [Synth 8-3491] module 'clk_div' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/clk_div.vhd:35' bound to instance 'Inst_clk_div' of component 'clk_div' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/chenillard.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/clk_div.vhd:40]
+WARNING: [Synth 8-614] signal 'clk_4Hz_i' is read in the process but is not in the sensitivity list [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/clk_div.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (4#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/clk_div.vhd:40]
+INFO: [Synth 8-3491] module 'shift_vector' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/shift_vector.vhd:34' bound to instance 'Inst_shift_vector' of component 'shift_vector' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/chenillard.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'shift_vector' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/shift_vector.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'shift_vector' (5#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/shift_vector.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'chenillard' (6#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/chenillard.vhd:40]
+WARNING: [Synth 8-614] signal 'sw' is read in the process but is not in the sensitivity list [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/fsm.vhd:90]
+WARNING: [Synth 8-614] signal 'ledchen' is read in the process but is not in the sensitivity list [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/fsm.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'fsm' (7#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/new/fsm.vhd:46]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1319.898 ; gain = 131.469 ; free physical = 1764 ; free virtual = 12070
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1319.898 ; gain = 131.469 ; free physical = 1764 ; free virtual = 12070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1319.898 ; gain = 131.469 ; free physical = 1764 ; free virtual = 12070
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/constrs_1/imports/TP_5/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fsm_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fsm_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1636.234 ; gain = 0.000 ; free physical = 1508 ; free virtual = 11822
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1583 ; free virtual = 11897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1583 ; free virtual = 11897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1585 ; free virtual = 11899
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "outdecode" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "clk_4Hz_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'led_reg' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.srcs/sources_1/imports/new/shift_vector.vhd:51]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    init |                              000 |                              000
+                      s1 |                              001 |                              001
+                      s2 |                              010 |                              010
+                      s3 |                              011 |                              011
+                  iSTATE |                              100 |                              100
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1575 ; free virtual = 11890
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   6 Input     16 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module fsm 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     16 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+Module enable190 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+Module btn_pulse 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 6     
+Module decodeBtn 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      3 Bit        Muxes := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module shift_vector 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "Inst_chenillard/Inst_clk_div/clk_4Hz_i" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[15]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[14]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[13]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[12]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[11]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[10]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[9]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[8]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[7]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[6]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[5]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[4]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[3]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[2]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[1]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_chenillard/Inst_shift_vector/led_reg[0]) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_decode/Inst_Q0/q0_reg) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_decode/Inst_Q0/q1_reg) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_decode/Inst_Q0/q2_reg) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_decode/Inst_Q0/q3_reg) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_decode/Inst_Q0/q4_reg) is unused and will be removed from module fsm.
+WARNING: [Synth 8-3332] Sequential element (Inst_decode/Inst_Q0/q5_reg) is unused and will be removed from module fsm.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1564 ; free virtual = 11880
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1440 ; free virtual = 11756
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1437 ; free virtual = 11753
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     1|
+|4     |LUT2   |     3|
+|5     |LUT3   |     6|
+|6     |LUT4   |    27|
+|7     |LUT5   |     3|
+|8     |LUT6   |     9|
+|9     |FDRE   |   108|
+|10    |IBUF   |    14|
+|11    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+-------------+------+
+|      |Instance              |Module       |Cells |
++------+----------------------+-------------+------+
+|1     |top                   |             |   204|
+|2     |  Inst_chenillard     |chenillard   |    73|
+|3     |    Inst_clk_div      |clk_div      |    41|
+|4     |    Inst_shift_vector |shift_vector |    32|
+|5     |  Inst_decode         |decodeBtn    |    81|
+|6     |    Inst_Q1           |btn_pulse    |     8|
+|7     |    Inst_Q2           |btn_pulse_0  |     8|
+|8     |    Inst_Q3           |btn_pulse_1  |     8|
+|9     |    Inst_Q4           |btn_pulse_2  |     8|
+|10    |    Inst_clkdiv190    |enable190    |    32|
++------+----------------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:32 . Memory (MB): peak = 1636.234 ; gain = 447.805 ; free physical = 1438 ; free virtual = 11754
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 23 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1636.234 ; gain = 131.469 ; free physical = 1491 ; free virtual = 11807
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 1636.242 ; gain = 447.805 ; free physical = 1493 ; free virtual = 11809
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 30 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 64 Warnings, 38 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:33 . Memory (MB): peak = 1636.242 ; gain = 453.695 ; free physical = 1489 ; free virtual = 11805
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.2/TP_5_1.2.runs/synth_1/fsm.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fsm_utilization_synth.rpt -pb fsm_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1660.246 ; gain = 0.000 ; free physical = 1491 ; free virtual = 11807
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 19 11:49:38 2018...

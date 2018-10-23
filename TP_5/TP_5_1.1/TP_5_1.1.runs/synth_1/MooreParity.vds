@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Oct  5 11:44:26 2018
+# Process ID: 15048
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.runs/synth_1
+# Command line: vivado -log MooreParity.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MooreParity.tcl
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.runs/synth_1/MooreParity.vds
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source MooreParity.tcl -notrace
+Command: synth_design -top MooreParity -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15054 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1275.277 ; gain = 86.844 ; free physical = 1208 ; free virtual = 11662
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MooreParity' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:42]
+INFO: [Synth 8-226] default block is never used [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:78]
+INFO: [Synth 8-226] default block is never used [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:91]
+WARNING: [Synth 8-614] signal 'x' is read in the process but is not in the sensitivity list [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:88]
+INFO: [Synth 8-3491] module 'x7seg' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/x7seg.vhd:34' bound to instance 'inst_x7seg' of component 'x7seg' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'x7seg' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/x7seg.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'x7seg' (1#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/x7seg.vhd:39]
+INFO: [Synth 8-3491] module 'par4' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/imports/new/par4.vhd:34' bound to instance 'Inst_par4' of component 'par4' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'par4' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/imports/new/par4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'par4' (2#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/imports/new/par4.vhd:40]
+ERROR: [Synth 8-97] array index 7 out of range [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:106]
+ERROR: [Synth 8-97] array index 15 out of range [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:106]
+ERROR: [Synth 8-285] failed synthesizing module 'MooreParity' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.srcs/sources_1/new/MooreParity.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1319.902 ; gain = 131.469 ; free physical = 1235 ; free virtual = 11674
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  5 11:44:39 2018...

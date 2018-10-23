@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Oct  5 11:44:26 2018
+# Process ID: 15048
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.runs/synth_1
+# Command line: vivado -log MooreParity.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MooreParity.tcl
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.runs/synth_1/MooreParity.vds
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_5/TP_5_1.1/TP_5_1.1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source MooreParity.tcl -notrace

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TP_5_1.2.srcs/sources_1/new/btn_pulse.vhd" \
+"../../../../TP_5_1.2.srcs/sources_1/new/decodeBtn.vhd" \
+"../../../../TP_5_1.2.srcs/sources_1/new/enable190.vhd" \
+"../../../../TP_5_1.2.srcs/sources_1/new/fsm.vhd" \
+
+# Do not sort compile order
+nosort

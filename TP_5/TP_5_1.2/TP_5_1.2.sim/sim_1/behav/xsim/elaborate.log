@@ -1,0 +1,19 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/tibo36/Vivado/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto 65ce061e60c64dd690a71596468dcc02 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot fsm_behav xil_defaultlib.fsm -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.enable190 [enable190_default]
+Compiling architecture behavioral of entity xil_defaultlib.btn_pulse [btn_pulse_default]
+Compiling architecture behavioral of entity xil_defaultlib.decodeBtn [decodebtn_default]
+Compiling architecture behavioral of entity xil_defaultlib.fsm
+Built simulation snapshot fsm_behav
