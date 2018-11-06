@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov  6 19:41:26 2018
+# Process ID: 17246
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/Prep-TP-eval1/Prep-TP-eval1.runs/synth_1
+# Command line: vivado -log fsm7seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm7seg.tcl
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/Prep-TP-eval1/Prep-TP-eval1.runs/synth_1/fsm7seg.vds
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/Prep-TP-eval1/Prep-TP-eval1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fsm7seg.tcl -notrace
