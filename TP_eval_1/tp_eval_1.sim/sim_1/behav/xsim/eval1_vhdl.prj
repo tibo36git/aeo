@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tp_eval_1.srcs/sources_1/imports/new/enable190.vhd" \
+"../../../../tp_eval_1.srcs/sources_1/new/fsm7seg.vhd" \
+"../../../../tp_eval_1.srcs/sources_1/imports/new/x7seg.vhd" \
+"../../../../tp_eval_1.srcs/sources_1/new/eval1.vhd" \
+
+# Do not sort compile order
+nosort

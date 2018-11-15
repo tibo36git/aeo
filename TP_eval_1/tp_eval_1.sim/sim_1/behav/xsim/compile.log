@@ -1,0 +1,57 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/imports/new/enable190.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enable190
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/fsm7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fsm7seg
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/imports/new/x7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity x7seg
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/eval1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity eval1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+ERROR: [VRFC 10-91] st4 is not declared [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd:108]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd:43]
+INFO: [VRFC 10-240] VHDL file /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_eval_1/tp_eval_1.srcs/sources_1/new/tripletbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tripletbit

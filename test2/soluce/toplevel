@@ -1,0 +1,104 @@
+ entity toplevel is
+    Port ( btnL, btnR, btnC, btnD, clk : in STD_LOGIC;
+           led : out STD_LOGIC_VECTOR (15 downto 0);
+           seg : out STD_LOGIC_VECTOR (6 downto 0);
+           an : out STD_LOGIC_VECTOR (3 downto 0));
+end toplevel;
+
+architecture Behavioral of toplevel is
+
+
+signal clk190 : STD_LOGIC;
+signal val : STD_LOGIC_VECTOR(15 downto 0);
+signal p20 : STD_LOGIC;
+signal p50 : STD_LOGIC;
+signal p100 : STD_LOGIC;
+signal enable190 : STD_LOGIC;
+
+COMPONENT en190
+    PORT(
+        clk: IN STD_LOGIC;
+        reset: IN STD_LOGIC;
+        clk190 : OUT STD_LOGIC ;
+        E190 : OUT STD_LOGIC
+    );
+END COMPONENT;
+
+COMPONENT aff16bits 
+PORT (     
+   input : in STD_LOGIC_VECTOR (15 downto 0);
+   clk190: in STD_LOGIC;
+   anodes : out STD_LOGIC_VECTOR (3 downto 0);
+   segments : out STD_LOGIC_VECTOR (6 downto 0)
+   );
+end COMPONENT;
+
+COMPONENT btn_pulse
+    Port ( 
+       input : in STD_LOGIC;
+       enable : in STD_LOGIC;
+       clk : in STD_LOGIC;
+       output : out STD_LOGIC
+     );
+END COMPONENT;
+     
+COMPONENT controlcola
+    Port ( 
+        piece20, piece50, piece100 : in STD_LOGIC;
+        reset : in std_logic;
+        clk : in STD_LOGIC;
+        euro_in : out STD_LOGIC_VECTOR (15 downto 0);
+        canette, retour_euro : out STD_LOGIC
+     );
+END COMPONENT;
+
+begin
+
+en190_inst: en190 PORT MAP(
+    clk => clk,
+    reset => '0',
+    clk190 => clk190,
+    E190 => enable190
+);
+    
+aff16bits_inst: aff16bits PORT MAP(
+    input => val,
+    clk190 => clk190,
+    segments => seg,
+    anodes => an
+);
+
+btn_pulse_inst0: btn_pulse PORT MAP(
+    clk => clk,
+    input => btnR,
+    enable => enable190,
+    output => p20
+);
+
+btn_pulse_inst1: btn_pulse PORT MAP(
+    clk => clk,
+    input => btnD,
+    enable => enable190,
+    output => p50
+);
+                
+btn_pulse_inst2: btn_pulse PORT MAP(
+    clk => clk,
+    input => btnL,
+    enable => enable190,
+    output => p100
+);
+    
+controlcola_inst: controlcola PORT MAP(
+    piece20 => p20,
+    piece50 => p50,
+    piece100 => p100,
+    reset => btnC,
+    clk => clk,
+    euro_in => val,
+    retour_euro => led(1),
+    canette => led(0)
+);
+
+
+end Behavioral;

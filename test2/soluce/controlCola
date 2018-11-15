@@ -1,0 +1,155 @@
+entity controlcola is
+ Port (    
+    piece20, piece50, piece100 : in STD_LOGIC;
+    reset : in std_logic;
+    clk : in STD_LOGIC;
+    euro_in : out STD_LOGIC_VECTOR (15 downto 0);
+    canette, retour_euro : out STD_LOGIC);
+end controlcola;
+
+architecture Behavioral of controlcola is
+
+type state_type is (init, st20, st40, st50, st60, st80, can, retour);
+signal state, next_state : state_type;
+signal retour_i, canette_i : STD_LOGIC;
+signal euro_in_i : STD_LOGIC_VECTOR (15 downto 0);
+
+
+begin
+
+SYNC_PROC: process (clk)
+begin
+  if (clk'event and clk = '1') then
+       if (reset = '1') then
+          state <= init;
+          retour_euro <= '0';
+          canette <= '0';
+          euro_in <= x"0000";
+       else
+          state <= next_state;
+          retour_euro <= retour_i;
+          euro_in <= euro_in_i;
+          canette <= canette_i;
+        end if;
+  end if;
+end process;
+
+OUTPUT_DECODE: process (state)
+begin
+  if state = init then
+     canette_i <= '0';
+     retour_i <= '0';
+     euro_in_i <= x"0000";
+  elsif state = st20 then
+     canette_i <= '0';
+     retour_i <= '0';
+     euro_in_i <= x"0020";
+  elsif state = st40 then
+     canette_i <= '0';
+     retour_i <= '0'; 
+     euro_in_i <= x"0040";
+  elsif state = st50 then
+     canette_i <= '0';
+     retour_i <= '0';
+     euro_in_i <= x"0050";
+  elsif state = st60 then
+      canette_i <= '0';
+      retour_i <= '0';
+      euro_in_i <= x"0060";
+  elsif state = st80 then
+      canette_i <= '0';
+      retour_i <= '0'; 
+      euro_in_i <= x"0080";
+  elsif state = can then
+      canette_i <= '1';
+      retour_i <= '0';
+      euro_in_i <= x"0100";
+  elsif state = retour then
+      canette_i <= '0';
+      retour_i <= '1';
+      euro_in_i <= x"0000";
+  end if;
+ 
+end process;
+
+NEXT_STATE_DECODE: process(state, piece20, piece50, piece100)
+begin
+    next_state <= state;
+    case (state) is
+        when init => 
+            if (piece20 = '1') then
+                next_state <= st20;
+            elsif (piece50 = '1') then
+                next_state <= st50;
+            elsif (piece100 = '1') then
+                next_state <= can;
+            else
+                next_state <= state;
+            end if;
+        when st20 => 
+            if (piece20 = '1') then
+                next_state <= st40;
+            elsif (piece50 = '1') then
+                next_state <= retour;
+            elsif (piece100 = '1') then
+                next_state <= retour;
+            else
+                next_state <= state;
+            end if;
+        when st40 => 
+            if (piece20 = '1') then
+                next_state <= st60;
+            elsif (piece50 = '1') then
+                next_state <= retour;
+            elsif (piece100 = '1') then
+                next_state <= retour;
+            else
+                next_state <= state;
+            end if;
+        when st50 => 
+            if (piece20 = '1') then
+                next_state <= retour;
+            elsif (piece50 = '1') then
+                next_state <= can;
+            elsif (piece100 = '1') then
+                next_state <= retour;
+            else
+                next_state <= state;
+            end if;
+         when st60 => 
+            if (piece20 = '1') then
+                next_state <= st80;
+            elsif (piece50 = '1') then
+                next_state <= retour;
+            elsif (piece100 = '1') then
+                next_state <= retour;
+            else
+                next_state <= state;
+            end if;
+        when st80 => 
+            if (piece20 = '1') then
+                next_state <= can;
+            elsif (piece50 = '1') then
+                next_state <= retour;
+            elsif (piece100 = '1') then
+                next_state <= retour;
+            else
+                next_state <= state;
+            end if;
+         when can => 
+            if (piece20 = '1') then
+                next_state <= retour;
+            elsif (piece50 = '1') then
+                next_state <= retour;
+            elsif (piece100 = '1') then
+                next_state <= retour;
+            else
+                next_state <= state;
+            end if;
+        when others =>
+            next_state <= state;
+    end case;
+end process;
+
+end Behavioral;
+ 

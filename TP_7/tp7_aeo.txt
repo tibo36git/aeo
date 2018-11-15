@@ -1,0 +1,25 @@
+type rom_array is array (natural range <>) of std_logic_vector ( 63 downto 0 ) ;
+
+constant rom : rom_array := (
+
+-- Master code
+
+x"0C00_0000_000C_FFFF", -- 0000    1//Branchement absolu en 000C (0C00 -> branchement absolu)
+
+x"201F_A402_8804_8003", -- 0004    3//Met au sommet de la pil LIT 1F ; Lit le masque btn '11111' au sommet de pile ;
+                                    //Lit les switch et le met en sommet de pile ; Affiche la valeur en sommet de pile sur les led
+x"A002_03FB_1400_FFFF", -- 0008    4//Lit le sommet de pile et l'affiche sur le 7seg ; Branchement relatif en 0000; return à 000C sur l'instruction 1C00
+
+x"1000_0000_0004_1C00", -- 000C    2//CALL en 0004 avec mémorisation 000C si return
+
+x"FFFF_FFFF_FFFF_FFFF", -- 0010
+
+-- Slave code
+
+x"1C00_FFFF_FFFF_FFFF", -- 0000
+
+x"FFFF_FFFF_FFFF_FFFF" -- 0004
+
+
+
+//complément à deux de 3FB -> -4 :  @ x0008 - x0004 = x0000

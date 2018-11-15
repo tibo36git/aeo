@@ -1,0 +1,1 @@
+-wto "cc792770bf4c467dad0b9aa4507d315e" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "Tripletbit_behav" "xil_defaultlib.Tripletbit" -log "elaborate.log" 
