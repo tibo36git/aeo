@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 23 11:24:19 2018
+# Process ID: 19813
+# Current directory: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_8.2/TP_8.2.runs/impl_2
+# Command line: vivado -log Basys3V6.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Basys3V6.tcl -notrace
+# Log file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_8.2/TP_8.2.runs/impl_2/Basys3V6.vdi
+# Journal file: /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_8.2/TP_8.2.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source Basys3V6.tcl -notrace

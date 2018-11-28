@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jld/M1 basys3/basys3V6/Basys3V6/Basys3V6/Basys3V6.ip_user_files/ip/my_ram/my_ram_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity my_ram_spram
+INFO: [VRFC 10-307] analyzing entity my_ram_dist_mem_gen_v8_0_11_synth
+INFO: [VRFC 10-307] analyzing entity my_ram_dist_mem_gen_v8_0_11
+INFO: [VRFC 10-307] analyzing entity my_ram
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jld/M1 basys3/basys3V6/Basys3V6/Basys3V6/Basys3V6.ip_user_files/ip/multiply/sim/multiply.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multiply
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jld/M1 basys3/basys3V6/Basys3V6/Basys3V6/Basys3V6.srcs/sim_1/imports/nexys3V6_vhdl/Master_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity masterbench
