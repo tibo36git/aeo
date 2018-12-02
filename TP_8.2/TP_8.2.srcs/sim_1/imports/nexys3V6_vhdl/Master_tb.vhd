@@ -64,7 +64,7 @@ type rom_array is array (natural range <>) of std_logic_vector ( 63 downto 0 ) ;
 
 constant  rom : rom_array := ( 
  --  master code 
- x"0c00_0000_0034_1c00", -- 0x0000
+ x"0c00_0000_0020_1c00", -- 0x0000
  x"1c00_0000_0000_1c00", -- 0x0004
  x"1c00_0000_0000_1c00", -- 0x0008
  x"1c00_0000_0000_1c00", -- 0x000c
@@ -72,13 +72,20 @@ constant  rom : rom_array := (
  x"1c00_0000_0000_1c00", -- 0x0014
  x"1c00_ffff_ffff_1c00", -- 0x0018
  x"1c00_0000_0000_1c00", -- 0x001c
- x"2031_2000_a007_a007", -- 0x0020
- x"8810_8806_a823_8007", -- 0x0024
- x"a833_a000_07fa_8006", -- 0x0028
- x"8006_a002_201f_a402", -- 0x002c
- x"1400_ffff_ffff_ffff", -- 0x0030
- x"1000_0000_0020_1c00", -- 0x0034
- x"ffff_ffff_ffff_ffff", -- 0x0038
+ x"8001_2000_2001_2010", -- 0x0020
+ x"c82d_ffff_ffff_ffff", -- 0x0024
+ x"8810_8808_2fff_c825", -- 0x0028
+ x"8808_c814_d009_200c", -- 0x002c
+ x"c82b_2fff_c825_8808", -- 0x0030
+ x"c814_c820_2001_2ffe", -- 0x0034
+ x"c82d_c83c_a000_0405", -- 0x0038
+ x"d009_a822_d009_ffff", -- 0x003c
+ x"a823_8808_2000_c836", -- 0x0040
+ x"a000_07e3_8801_201f", -- 0x0044
+ x"a402_2010_c82b_a002", -- 0x0048
+ x"201f_a402_8002_201f", -- 0x004c
+ x"a402_1c00_ffff_ffff", -- 0x0050
+ x"ffff_ffff_ffff_ffff", -- 0x0054
  --  slave code 
  x"1c00_ffff_ffff_ffff", -- 0x0000
  x"ffff_ffff_ffff_ffff"  -- 0x0004
