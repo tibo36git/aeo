@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date             : Fri Nov 30 10:38:57 2018
+| Date             : Sun Dec  2 11:55:43 2018
 | Host             : tibo36-Inspiron-5567 running 64-bit Ubuntu 18.04.1 LTS
 | Command          : report_power -file Basys3V6_power_routed.rpt -pb Basys3V6_power_summary_routed.pb -rpx Basys3V6_power_routed.rpx
 | Design           : Basys3V6
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 0.200        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.129        |
+| Dynamic (W)              | 0.128        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.0         |
@@ -52,15 +52,16 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.014 |       10 |       --- |             --- |
-| Slice Logic              |     0.004 |    13792 |       --- |             --- |
-|   LUT as Logic           |     0.004 |     7428 |     20800 |           35.71 |
-|   Register               |    <0.001 |     4667 |     41600 |           11.22 |
+| Clocks                   |     0.013 |       10 |       --- |             --- |
+| Slice Logic              |     0.004 |    13850 |       --- |             --- |
+|   LUT as Logic           |     0.004 |     7453 |     20800 |           35.83 |
+|   Register               |    <0.001 |     4659 |     41600 |           11.20 |
 |   CARRY4                 |    <0.001 |      140 |      8150 |            1.72 |
 |   F7/F8 Muxes            |    <0.001 |      780 |     32600 |            2.39 |
 |   LUT as Distributed RAM |    <0.001 |      136 |      9600 |            1.42 |
-|   Others                 |     0.000 |      221 |       --- |             --- |
-| Signals                  |     0.004 |     7541 |       --- |             --- |
+|   LUT as Shift Register  |    <0.001 |        1 |      9600 |            0.01 |
+|   Others                 |     0.000 |      222 |       --- |             --- |
+| Signals                  |     0.004 |     7600 |       --- |             --- |
 | MMCM                     |     0.106 |        1 |         5 |           20.00 |
 | I/O                      |    <0.001 |       34 |       106 |           32.08 |
 | Static Power             |     0.072 |          |           |                 |
@@ -74,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.032 |       0.022 |      0.010 |
+| Vccint    |       1.000 |     0.031 |       0.022 |      0.010 |
 | Vccaux    |       1.800 |     0.071 |       0.059 |      0.013 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -150,7 +151,7 @@ Table of Contents
 +----------------------------------+-----------+
 | Name                             | Power (W) |
 +----------------------------------+-----------+
-| Basys3V6                         |     0.129 |
+| Basys3V6                         |     0.128 |
 |   D7seg_display                  |    <0.001 |
 |   Inst_debounce4                 |    <0.001 |
 |   My_E190                        |    <0.001 |
@@ -164,7 +165,7 @@ Table of Contents
 |     uart_baudClock_inst          |    <0.001 |
 |   clk_gen                        |     0.107 |
 |     inst                         |     0.107 |
-|   my_Master                      |     0.020 |
+|   my_Master                      |     0.019 |
 |     BufO_reg                     |    <0.001 |
 |     HCU_Master                   |     0.005 |
 |       Inst_returnstack           |    <0.001 |

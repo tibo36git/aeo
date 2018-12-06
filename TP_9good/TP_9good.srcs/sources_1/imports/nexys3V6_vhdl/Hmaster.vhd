@@ -417,7 +417,8 @@ COMPONENT IP_Rdm
 	GENERIC (Mycode : std_logic_vector (10 downto 0));
 	PORT(
 		clk , reset: IN std_logic;
-		IPcode : IN std_logic_vector(10 downto 0);          
+		IPcode : IN std_logic_vector(10 downto 0);
+		Nout : OUT std_logic_vector(31 downto 0);          
 		Tout : OUT std_logic_vector(31 downto 0)
 		);
 	END COMPONENT;
@@ -892,6 +893,7 @@ Inst_IP_Rdm: IP_Rdm
 		clk => clock,
 		reset => reset,
 		IPcode => Icode,
+		Nout => NbusST,
 		Tout => Tbusst
 	);
 end generate Mrdm;

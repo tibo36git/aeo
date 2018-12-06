@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Fri Nov 30 10:36:18 2018
+| Date         : Sun Dec  2 11:53:27 2018
 | Host         : tibo36-Inspiron-5567 running 64-bit Ubuntu 18.04.1 LTS
 | Command      : report_utilization -file Basys3V6_utilization_synth.rpt -pb Basys3V6_utilization_synth.pb
 | Design       : Basys3V6
@@ -30,13 +30,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 7410 |     0 |     20800 | 35.63 |
-|   LUT as Logic             | 7274 |     0 |     20800 | 34.97 |
-|   LUT as Memory            |  136 |     0 |      9600 |  1.42 |
+| Slice LUTs*                | 7449 |     0 |     20800 | 35.81 |
+|   LUT as Logic             | 7312 |     0 |     20800 | 35.15 |
+|   LUT as Memory            |  137 |     0 |      9600 |  1.43 |
 |     LUT as Distributed RAM |  136 |     0 |           |       |
-|     LUT as Shift Register  |    0 |     0 |           |       |
-| Slice Registers            | 4668 |     0 |     41600 | 11.22 |
-|   Register as Flip Flop    | 4668 |     0 |     41600 | 11.22 |
+|     LUT as Shift Register  |    1 |     0 |           |       |
+| Slice Registers            | 4660 |     0 |     41600 | 11.20 |
+|   Register as Flip Flop    | 4660 |     0 |     41600 | 11.20 |
 |   Register as Latch        |    0 |     0 |     41600 |  0.00 |
 | F7 Muxes                   |  520 |     0 |     16300 |  3.19 |
 | F8 Muxes                   |  260 |     0 |      8150 |  3.19 |
@@ -59,7 +59,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 15    |          Yes |           - |        Reset |
 | 14    |          Yes |         Set |            - |
-| 4639  |          Yes |       Reset |            - |
+| 4631  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -151,12 +151,12 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT6     | 5440 |                 LUT |
-| FDRE     | 4639 |        Flop & Latch |
-| LUT4     | 1168 |                 LUT |
+| LUT6     | 5420 |                 LUT |
+| FDRE     | 4631 |        Flop & Latch |
+| LUT4     | 1200 |                 LUT |
 | MUXF7    |  520 |               MuxFx |
 | LUT5     |  346 |                 LUT |
-| LUT2     |  284 |                 LUT |
+| LUT2     |  336 |                 LUT |
 | MUXF8    |  260 |               MuxFx |
 | LUT3     |  210 |                 LUT |
 | RAMS32   |  132 |  Distributed Memory |
@@ -167,6 +167,7 @@ Table of Contents
 | FDSE     |   14 |        Flop & Latch |
 | RAMD32   |   12 |  Distributed Memory |
 | IBUF     |    6 |                  IO |
+| SRL16E   |    1 |  Distributed Memory |
 +----------+------+---------------------+
 
 

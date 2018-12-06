@@ -17,9 +17,9 @@ Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6868 
+INFO: Helper process launched with PID 7759 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1301.742 ; gain = 84.840 ; free physical = 689 ; free virtual = 11095
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1301.746 ; gain = 84.840 ; free physical = 1940 ; free virtual = 12730
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Basys3V6' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Basys3V6.vhd:42]
 INFO: [Synth 8-3491] module 'Wrapper_RAM' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/uart_driverV2.vhd:28' bound to instance 'UART_Wrapper' of component 'Wrapper_RAM' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Basys3V6.vhd:203]
@@ -48,7 +48,7 @@ INFO: [Synth 8-256] done synthesizing module 'uart_dispatch' (5#1) [/home/tibo36
 INFO: [Synth 8-256] done synthesizing module 'Wrapper_RAM' (6#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/uart_driverV2.vhd:46]
 INFO: [Synth 8-3491] module 'HMaster' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:32' bound to instance 'my_Master' of component 'HMaster' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Basys3V6.vhd:223]
 INFO: [Synth 8-638] synthesizing module 'HMaster' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:56]
-INFO: [Synth 8-3491] module 'Inst_mem' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/slavedual_prom.vhd:36' bound to instance 'Inst_mem_Master' of component 'inst_mem' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:464]
+INFO: [Synth 8-3491] module 'Inst_mem' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/slavedual_prom.vhd:36' bound to instance 'Inst_mem_Master' of component 'inst_mem' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:465]
 INFO: [Synth 8-638] synthesizing module 'Inst_mem' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/slavedual_prom.vhd:48]
 INFO: [Synth 8-3491] module 'mem_bank_1bit' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/mem_bank_1bit.vhd:28' bound to instance 'bank' of component 'mem_bank_1bit' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/slavedual_prom.vhd:183]
 INFO: [Synth 8-638] synthesizing module 'mem_bank_1bit' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/mem_bank_1bit.vhd:39]
@@ -117,13 +117,13 @@ INFO: [Synth 8-3491] module 'mem_bank_1bit' declared at '/home/tibo36/Documents/
 INFO: [Synth 8-3491] module 'mem_bank_1bit' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/mem_bank_1bit.vhd:28' bound to instance 'bank' of component 'mem_bank_1bit' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/slavedual_prom.vhd:183]
 INFO: [Synth 8-3491] module 'mem_bank_1bit' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/mem_bank_1bit.vhd:28' bound to instance 'bank' of component 'mem_bank_1bit' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/slavedual_prom.vhd:183]
 INFO: [Synth 8-256] done synthesizing module 'Inst_mem' (8#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/slavedual_prom.vhd:48]
-INFO: [Synth 8-3491] module 'add_gen' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/add_gen.vhd:35' bound to instance 'Inst_add_gen' of component 'add_gen' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:477]
+INFO: [Synth 8-3491] module 'add_gen' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/add_gen.vhd:35' bound to instance 'Inst_add_gen' of component 'add_gen' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:478]
 INFO: [Synth 8-638] synthesizing module 'add_gen' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/add_gen.vhd:42]
 INFO: [Synth 8-256] done synthesizing module 'add_gen' (9#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/add_gen.vhd:42]
-INFO: [Synth 8-3491] module 'reset_mem' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/reset_mem.vhd:25' bound to instance 'rst_mem' of component 'reset_mem' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:485]
+INFO: [Synth 8-3491] module 'reset_mem' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/reset_mem.vhd:25' bound to instance 'rst_mem' of component 'reset_mem' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:486]
 INFO: [Synth 8-638] synthesizing module 'reset_mem' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/reset_mem.vhd:31]
 INFO: [Synth 8-256] done synthesizing module 'reset_mem' (10#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/reset_mem.vhd:31]
-INFO: [Synth 8-3491] module 'Hstack' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hstack.vhd:26' bound to instance 'Stack_Master' of component 'Hstack' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:592]
+INFO: [Synth 8-3491] module 'Hstack' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hstack.vhd:26' bound to instance 'Stack_Master' of component 'Hstack' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:593]
 INFO: [Synth 8-638] synthesizing module 'Hstack' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hstack.vhd:47]
 INFO: [Synth 8-3491] module 'constant32' declared at '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/constant32.vhd:34' bound to instance 'constlit' of component 'constant32' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hstack.vhd:179]
 INFO: [Synth 8-638] synthesizing module 'constant32' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/constant32.vhd:39]
@@ -236,7 +236,7 @@ INFO: [Synth 8-638] synthesizing module 'reg1c__parameterized1' [/home/tibo36/Do
 INFO: [Synth 8-256] done synthesizing module 'reg1c__parameterized1' (29#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/reg1c.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'IP_Tic' (30#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/IPTic.vhd:39]
 	Parameter Mycode bound to: 11'b00000010000 
-INFO: [Synth 8-638] synthesizing module 'IP_Rdm' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/IP_Rdm.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'IP_Rdm' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/IP_Rdm.vhd:45]
 	Parameter Mycode bound to: 11'b00000010000 
 	Parameter width bound to: 32 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'random' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/random.vhd:42]
@@ -244,7 +244,7 @@ INFO: [Synth 8-638] synthesizing module 'random' [/home/tibo36/Documents/Info-SI
 WARNING: [Synth 8-614] signal 'enable' is read in the process but is not in the sensitivity list [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/random.vhd:48]
 WARNING: [Synth 8-614] signal 'r' is read in the process but is not in the sensitivity list [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/random.vhd:48]
 INFO: [Synth 8-256] done synthesizing module 'random' (31#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/random.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'IP_Rdm' (32#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/IP_Rdm.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'IP_Rdm' (32#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/new/IP_Rdm.vhd:45]
 	Parameter Mycode bound to: 11'b00000010100 
 INFO: [Synth 8-638] synthesizing module 'IP_mul16' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/IPmul16.vhd:45]
 	Parameter Mycode bound to: 11'b00000010100 
@@ -255,7 +255,7 @@ WARNING: [Synth 8-3848] Net ort in module/entity HMaster does not have driver. [
 INFO: [Synth 8-256] done synthesizing module 'HMaster' (34#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:56]
 INFO: [Synth 8-638] synthesizing module 'debounce4' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/debounce4.vhd:35]
 INFO: [Synth 8-256] done synthesizing module 'debounce4' (35#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/debounce4.vhd:35]
-INFO: [Synth 8-638] synthesizing module 'timer' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/realtime/timer_stub.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'timer' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/realtime/timer_stub.vhdl:14]
 INFO: [Synth 8-638] synthesizing module 'afficheur' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/afficheur.vhd:36]
 INFO: [Synth 8-638] synthesizing module 'x7seg' [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/x7seg.vhd:40]
 INFO: [Synth 8-256] done synthesizing module 'x7seg' (36#1) [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/x7seg.vhd:40]
@@ -305,7 +305,7 @@ WARNING: [Synth 8-3331] design select_in has unconnected port count[6]
 WARNING: [Synth 8-3331] design HMaster has unconnected port data_S
 WARNING: [Synth 8-3331] design HMaster has unconnected port wphase_S
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1358.367 ; gain = 141.465 ; free physical = 688 ; free virtual = 11095
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1358.371 ; gain = 141.465 ; free physical = 1927 ; free virtual = 12711
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -314,28 +314,28 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin HCU_Master:orwait to constant 0 [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:613]
-WARNING: [Synth 8-3295] tying undriven pin BufLed_reg:load to constant 0 [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:650]
+WARNING: [Synth 8-3295] tying undriven pin HCU_Master:orwait to constant 0 [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:614]
+WARNING: [Synth 8-3295] tying undriven pin BufLed_reg:load to constant 0 [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Hmaster.vhd:651]
 WARNING: [Synth 8-3295] tying undriven pin My_arbitre:it2 to constant 0 [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/sources_1/imports/nexys3V6_vhdl/Basys3V6.vhd:274]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1358.367 ; gain = 141.465 ; free physical = 691 ; free virtual = 11098
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1358.371 ; gain = 141.465 ; free physical = 1927 ; free virtual = 12709
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1358.367 ; gain = 141.465 ; free physical = 691 ; free virtual = 11098
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1358.371 ; gain = 141.465 ; free physical = 1927 ; free virtual = 12709
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc] for cell 'clk_gen'
-Finished Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc] for cell 'clk_gen'
-Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/multiply/multiply/multiply_in_context.xdc] for cell 'my_Master/Mmul16.Inst_IP_mul16/my_mul16'
-WARNING: [Vivado 12-180] No cells matched 'get_cells -of [get_ports -no_traverse -quiet {A[0]}]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/multiply/multiply/multiply_in_context.xdc:1]
-Finished Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/multiply/multiply/multiply_in_context.xdc] for cell 'my_Master/Mmul16.Inst_IP_mul16/my_mul16'
+Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc] for cell 'clk_gen'
+Finished Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc] for cell 'clk_gen'
+Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/multiply/multiply/multiply_in_context.xdc] for cell 'my_Master/Mmul16.Inst_IP_mul16/my_mul16'
+WARNING: [Vivado 12-180] No cells matched 'get_cells -of [get_ports -no_traverse -quiet {A[0]}]'. [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/multiply/multiply/multiply_in_context.xdc:1]
+Finished Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/multiply/multiply/multiply_in_context.xdc] for cell 'my_Master/Mmul16.Inst_IP_mul16/my_mul16'
 Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/constrs_1/imports/M1 basys3/Basys3_Master.xdc]
 Finished Parsing XDC File [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/constrs_1/imports/M1 basys3/Basys3_Master.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.srcs/constrs_1/imports/M1 basys3/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Basys3V6_propImpl.xdc].
@@ -345,26 +345,26 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1698.703 ; gain = 0.000 ; free physical = 413 ; free virtual = 10821
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1698.707 ; gain = 0.000 ; free physical = 1666 ; free virtual = 12476
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1698.703 ; gain = 481.801 ; free physical = 526 ; free virtual = 10911
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 1698.707 ; gain = 481.801 ; free physical = 1763 ; free virtual = 12578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1698.703 ; gain = 481.801 ; free physical = 526 ; free virtual = 10911
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 1698.707 ; gain = 481.801 ; free physical = 1763 ; free virtual = 12578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for mclk. (constraint file  /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc, line 4).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for mclk. (constraint file  /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-6860-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for mclk. (constraint file  /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mclk. (constraint file  /home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/.Xil/Vivado-7554-tibo36-Inspiron-5567/timer/timer/timer_in_context.xdc, line 5).
 Applied set_property DONT_TOUCH = true for clk_gen. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for my_Master/\Mmul16.Inst_IP_mul16 /my_mul16. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1698.703 ; gain = 481.801 ; free physical = 528 ; free virtual = 10914
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 1698.707 ; gain = 481.801 ; free physical = 1766 ; free virtual = 12580
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'uart_dispatch'
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
@@ -446,7 +446,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'digit_reg' [/home/tibo36/Do
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'arbitre'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:31 . Memory (MB): peak = 1698.703 ; gain = 481.801 ; free physical = 513 ; free virtual = 10912
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 1698.707 ; gain = 481.801 ; free physical = 1750 ; free virtual = 12572
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -918,7 +918,7 @@ WARNING: [Synth 8-3332] Sequential element (D7seg_display/digit_reg[1]) is unuse
 WARNING: [Synth 8-3332] Sequential element (D7seg_display/digit_reg[0]) is unused and will be removed from module Basys3V6.
 WARNING: [Synth 8-3332] Sequential element (My_arbitre/it_homade_reg[2]) is unused and will be removed from module Basys3V6.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1698.703 ; gain = 481.801 ; free physical = 465 ; free virtual = 10868
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:45 . Memory (MB): peak = 1698.707 ; gain = 481.801 ; free physical = 1766 ; free virtual = 12592
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -952,13 +952,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_gen/clk_out1' to pin 
 INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_gen/clk_out2' to pin 'clk_gen/bbstub_clk_out2/O'
 INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:59 . Memory (MB): peak = 1698.703 ; gain = 481.801 ; free physical = 342 ; free virtual = 10753
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:55 . Memory (MB): peak = 1698.707 ; gain = 481.801 ; free physical = 1638 ; free virtual = 12471
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:01 . Memory (MB): peak = 1706.711 ; gain = 489.809 ; free physical = 333 ; free virtual = 10744
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:58 . Memory (MB): peak = 1706.715 ; gain = 489.809 ; free physical = 1626 ; free virtual = 12462
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -994,7 +994,7 @@ WARNING: [Synth 8-3332] Sequential element (my_Master/BufLed_reg/q_reg[12]) is u
 WARNING: [Synth 8-3332] Sequential element (my_Master/BufLed_reg/q_reg[11]) is unused and will be removed from module Basys3V6.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:01:10 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 337 ; free virtual = 10740
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:01:06 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1625 ; free virtual = 12452
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1051,7 +1051,7 @@ WARNING: [Synth 8-3295] tying undriven pin my_Master/HCU_Master/Inst_returnstack
 WARNING: [Synth 8-3295] tying undriven pin my_Master/HCU_Master/Inst_returnstack/dout_inferred:in0[1] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin my_Master/HCU_Master/Inst_returnstack/dout_inferred:in0[0] to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:01:12 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 338 ; free virtual = 10741
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:01:07 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1633 ; free virtual = 12457
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1064,7 +1064,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:01:12 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 338 ; free virtual = 10741
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:01:07 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1633 ; free virtual = 12457
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1076,25 +1076,39 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:14 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 334 ; free virtual = 10736
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:01:09 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1620 ; free virtual = 12453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:01:15 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 334 ; free virtual = 10736
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:01:09 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1590 ; free virtual = 12451
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:57 ; elapsed = 00:01:16 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 316 ; free virtual = 10735
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:01:10 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1593 ; free virtual = 12450
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:57 ; elapsed = 00:01:16 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 322 ; free virtual = 10736
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:01:10 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1593 ; free virtual = 12450
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                      | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Basys3V6    | my_Master/Mrdm.Inst_IP_Rdm/Inst_rdm/r_reg[23] | 9      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1116,27 +1130,28 @@ Report Cell Usage:
 |2     |timer_bbox_1    |     1|
 |3     |CARRY4          |    63|
 |4     |LUT1            |    77|
-|5     |LUT2            |   284|
+|5     |LUT2            |   336|
 |6     |LUT3            |   210|
-|7     |LUT4            |  1168|
+|7     |LUT4            |  1200|
 |8     |LUT5            |   346|
-|9     |LUT6            |  5440|
+|9     |LUT6            |  5420|
 |10    |MUXF7           |   520|
 |11    |MUXF8           |   260|
 |12    |RAM16X1S        |   128|
 |13    |RAM32M          |     2|
-|14    |FDCE            |    15|
-|15    |FDRE            |  4639|
-|16    |FDSE            |    14|
-|17    |IBUF            |     6|
-|18    |OBUF            |    27|
+|14    |SRL16E          |     1|
+|15    |FDCE            |    15|
+|16    |FDRE            |  4631|
+|17    |FDSE            |    14|
+|18    |IBUF            |     6|
+|19    |OBUF            |    27|
 +------+----------------+------+
 
 Report Instance Areas: 
 +------+-----------------------------+----------------------+------+
 |      |Instance                     |Module                |Cells |
 +------+-----------------------------+----------------------+------+
-|1     |top                          |                      | 13233|
+|1     |top                          |                      | 13290|
 |2     |  D7seg_display              |afficheur             |     8|
 |3     |  Inst_debounce4             |debounce4             |    20|
 |4     |  My_E190                    |Enable190             |    32|
@@ -1148,9 +1163,9 @@ Report Instance Areas:
 |10    |      pulse_shift            |pulse_74              |     4|
 |11    |    pulse_shift              |pulse_73              |     9|
 |12    |    uart_baudClock_inst      |uart_baudClock        |    34|
-|13    |  my_Master                  |HMaster               | 12840|
+|13    |  my_Master                  |HMaster               | 12897|
 |14    |    BufO_reg                 |reg0                  |    27|
-|15    |    HCU_Master               |HCU                   |  5492|
+|15    |    HCU_Master               |HCU                   |  5548|
 |16    |      Inst_returnstack       |rstack                |    50|
 |17    |    Inst_add_gen             |add_gen               |    96|
 |18    |    Inst_mem_Master          |Inst_mem              |  6056|
@@ -1221,8 +1236,8 @@ Report Instance Areas:
 |83    |    \MTic.Inst_IP_Tic        |IP_Tic                |    41|
 |84    |      Tic_count              |reg1c__parameterized1 |    41|
 |85    |    \Mmul16.Inst_IP_mul16    |IP_mul16              |    32|
-|86    |    \Mrdm.Inst_IP_Rdm        |IP_Rdm                |    33|
-|87    |      Inst_rdm               |random                |    33|
+|86    |    \Mrdm.Inst_IP_Rdm        |IP_Rdm                |    26|
+|87    |      Inst_rdm               |random                |    26|
 |88    |    \Mwaitbtn.Inst_IPwaitBt  |IP_waitbt             |    36|
 |89    |      BufO_reg               |reg1c                 |     5|
 |90    |      pls0                   |pulse                 |     5|
@@ -1230,7 +1245,7 @@ Report Instance Areas:
 |92    |      pls2                   |pulse_7               |     5|
 |93    |      pls3                   |pulse_8               |     5|
 |94    |      pls4                   |pulse_9               |     7|
-|95    |    Stack_Master             |Hstack                |  1024|
+|95    |    Stack_Master             |Hstack                |  1032|
 |96    |      R0                     |QDE                   |    32|
 |97    |      R1                     |QDE_0                 |    32|
 |98    |      R2                     |QDE_1                 |    32|
@@ -1239,15 +1254,15 @@ Report Instance Areas:
 |101   |      ram1                   |Ram8_3                |    32|
 |102   |      ram2                   |Ram8_4                |    32|
 |103   |      ram3                   |Ram8_5                |    32|
-|104   |      update_counter         |next_count            |   768|
+|104   |      update_counter         |next_count            |   776|
 |105   |    rst_mem                  |reset_mem             |     3|
 +------+-----------------------------+----------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:57 ; elapsed = 00:01:16 . Memory (MB): peak = 1757.711 ; gain = 540.809 ; free physical = 322 ; free virtual = 10736
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:01:10 . Memory (MB): peak = 1757.715 ; gain = 540.809 ; free physical = 1593 ; free virtual = 12450
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 174 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 1757.711 ; gain = 200.473 ; free physical = 358 ; free virtual = 10787
-Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:01:16 . Memory (MB): peak = 1757.719 ; gain = 540.809 ; free physical = 368 ; free virtual = 10797
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:52 . Memory (MB): peak = 1757.715 ; gain = 200.473 ; free physical = 1644 ; free virtual = 12501
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:01:10 . Memory (MB): peak = 1757.723 ; gain = 540.809 ; free physical = 1653 ; free virtual = 12509
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 979 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1261,9 +1276,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 261 Infos, 224 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:20 . Memory (MB): peak = 1757.719 ; gain = 552.430 ; free physical = 357 ; free virtual = 10791
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:14 . Memory (MB): peak = 1757.723 ; gain = 552.430 ; free physical = 1648 ; free virtual = 12507
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint '/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_9good/TP_9good.runs/synth_1/Basys3V6.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Basys3V6_utilization_synth.rpt -pb Basys3V6_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.21 . Memory (MB): peak = 1781.723 ; gain = 0.000 ; free physical = 368 ; free virtual = 10787
-INFO: [Common 17-206] Exiting Vivado at Fri Nov 30 10:36:19 2018...
+report_utilization: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1781.727 ; gain = 0.000 ; free physical = 1657 ; free virtual = 12507
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  2 11:53:27 2018...

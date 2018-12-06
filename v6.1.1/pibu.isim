@@ -19,7 +19,7 @@ constant  rom : rom_array := (
  x"a823_8808_2000_c836", -- 0x0040
  x"a000_07e3_a000_8801", -- 0x0044
  x"201f_a402_2010_c82b", -- 0x0048
- x"a002_201f_a402_8002", -- 0x004c
+ x"a002_201f_a402_a002", -- 0x004c
  x"201f_a402_1c00_ffff", -- 0x0050
  x"ffff_ffff_ffff_ffff", -- 0x0054
  --  slave code 

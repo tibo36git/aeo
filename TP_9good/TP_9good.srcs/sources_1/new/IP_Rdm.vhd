@@ -38,6 +38,7 @@ entity IP_Rdm is
     Port ( clk : in STD_LOGIC;
            reset : in STD_LOGIC;
            IPcode : in STD_LOGIC_VECTOR (10 downto 0);
+           Nout : out STD_LOGIC_VECTOR (31 downto 0);
            Tout : out STD_LOGIC_VECTOR (31 downto 0));
 end IP_Rdm;
 
@@ -67,6 +68,7 @@ Inst_rdm : random
 		);
 
 s_enable <= '1' when IPcode(10 downto 0)= Mycode else ('0');
-Tout <= qbus when IPcode(10 downto 0)= Mycode else (others =>'Z');
+Tout <= "00000000000000000000" & qbus(11 downto 0) when IPcode(10 downto 0)= Mycode else (others =>'Z');
+Nout <= "00000000000000000000" & qbus(23 downto 12) when IPcode(10 downto 0)= Mycode else (others =>'Z');
 
 end Behavioral;

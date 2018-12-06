@@ -42,6 +42,6 @@ start
 	$10	->				//shift de 16b
 	7seg $1F btn		//affiche 16b poids forts nbcycle et consomme sommet pile 1703936 cycles
 	
-	7segdup $1F	btn		//affiche nb de point à l'intérieur du cercle 
+	7seg $1F	btn		//affiche nb de point à l'intérieur du cercle 
 	
 endprogram
