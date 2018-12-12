@@ -1,0 +1,16 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/tibo36/Vivado/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto b2b23aa9cb164b759cd59a646aa9a2c4 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot fibogen_behav xil_defaultlib.fibogen -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.fibogen
+Built simulation snapshot fibogen_behav

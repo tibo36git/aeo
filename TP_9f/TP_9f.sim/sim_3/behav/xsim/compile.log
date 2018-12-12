@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_8.2/TP_8.2.sim/sim_3/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_8.2/TP_8.2.srcs/sources_1/new/random.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity random
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/tibo36/Documents/Info-SI/Master/M1S1/AEO/TP_8.2/TP_8.2.srcs/sources_1/new/IP_Rdm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity IP_Rdm

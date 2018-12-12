@@ -34,7 +34,7 @@ start
 	next
 
 	tic					//nb cycle
-	7segup $1F btn		//affiche 16b poids faible nbcycle 
+	7segdup $1F btn		//affiche 16b poids faible nbcycle 
 		
 	$10	->				//shift de 16b
 	7seg $1F btn		//affiche 16b poids forts nbcycle et consomme sommet pile 1703936 cycles
